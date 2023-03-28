@@ -15,7 +15,7 @@ let app = {
         $("#customer_list_link").on("click",function(){
             customerListPage.prepare_customer_list();
         });
-
+        //new form
         $("#add_new_customer_link").on("click",function(){
             customerEntryPage.show_customer_entry_form();
         });
